@@ -13,7 +13,7 @@ body {
   display: grid;
   margin: 0 auto;
   grid-gap: 1rem;
-  padding: var(--spacing);  
+  padding: var(--spacing);
   grid-template-areas:
     "header school student"
     "header main time"
@@ -32,18 +32,17 @@ header {
   grid-area: header;
 }
 
-body > header > h1{
-    place-content: center;
-    text-align: center;
+body > header > h1 {
+  place-content: center;
+  text-align: center;
 }
 
-body > header > p{
-    place-content: center;
-    text-align: center;
-    margin-top: 40%;
-    padding: var(--spacing);
-    margin-bottom: 40%;
-
+body > header > p {
+  place-content: center;
+  text-align: center;
+  margin-top: 40%;
+  padding: var(--spacing);
+  margin-bottom: 40%;
 }
 
 .school {
